@@ -92,7 +92,6 @@ namespace Api.Controllers
             if (book == null)
                 return NotFound("Book not found.");
 
-
             books.Remove(book);
             return Ok("Book deleted successfully.");
         }
